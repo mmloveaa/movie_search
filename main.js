@@ -9,7 +9,6 @@ $(document).ready(init);
 function init() {
 	$('#find').click(populateMovie);
 	$('#search').click(movieSearch);
-	// $('#getMovie').click(getMovie);
 }
 
 function populateMovie() {
