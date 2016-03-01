@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+	<script src="main.js"></script>
+	<title>Movie</title>
+</head>
+<center>
+	<body>
+
+		<section id="findMovies">
+			<h1>Find your favorite movie!</h1>
+			<br>
+			<input type='text' id='movieInput' placeholder='Find movie(s)'>
+			<input type='text' id='yearInput' placeholder='Year'>
+				
+				  <select name="movieType" class="movietype" id="dropdown">
+				    <option value="movie">movie</option>
+				    <option value="serie">serie</option>
+				    <option value="episode">episode</option>
+				  </select>
+				  <!-- <input type="submit" value="Submit"> -->
+				
+
+			<button id='find'>Find</button>
+			<button id='search'>Search</button>
+
+			<h6> Find only shows one movie at a time</h6>
+			<h6> Search shows you all the possible results</h6>
+
+			
+		    <!-- <div class="alert alert-danger" role="alert"></div> -->
+		    <br>
+		</section>
+
+
+		<section id="showMovies">
+			<div id='result'>
+				<div class='movies' id='movieTemplate'>
+						<h2 class="cardTitle"></h2>
+						<h2 class="cardYear"></h2>
+						<h2 class="cardType"></h2>
+						<a href="" class="cardUrl">
+						<img src="" class="cardImage">
+						</a>
+				</div>
+			</div>
+		</section>
+
+	</body>
+</center>
+</html>

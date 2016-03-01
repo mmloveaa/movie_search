@@ -1,0 +1,80 @@
+
+body {
+	font-family: Righteous;
+	font-size: 25px;
+	margin: 2px;
+}
+
+input, select {
+	border: 0;
+	text-align: center;
+	font-size: 16px;
+	height: 45px;
+    width: 180px;
+    border-radius: 7px;
+}
+
+h1{
+	margin: 0px;
+}
+
+h6{
+	margin: 0px;
+	margin-top: 10px;
+	color: ;
+}
+
+img {
+	height: 250px;
+	width: 200px;
+}
+
+#find{
+	height: 45px;
+    width: 85px;
+    /*margin: 10px 35px;*/
+    background-color: #f7990c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: bolder;
+    display: inline-block;
+    cursor:pointer;
+}
+
+#search {
+	height: 45px;
+    width: 85px;
+    /*margin: 10px 35px;*/
+    background-color: #16b513;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: bolder;
+    display: inline-block;
+    cursor:pointer;
+}
+
+#findMovies{
+	padding: 40px;
+	background-color: #c0f7f3;
+}
+
+#showMovies{
+	background-color: #048bf2;
+}
+.movies{
+	border: 3px solid #000;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	min-height: 350px;
+	min-width: 300px;
+	border-radius: 15px;
+}
+
+#movieTemplate{
+	display: none;
+}
